@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Github Profile Viewer</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>GitHub Profile Viewer</h1>
+            <form action="" id="form">
+                <div class="form-group">
+                    <input type="text" name="" id="username">
+                    <button type="submit">Search</button>
+                </div>
+            </form>
+        </header>
+        <h1 id="error-message" class="not-show">Error Message</h1>
+        <section class="card " id="profile-card">
+            <img src="https://avatars.githubusercontent.com/u/241424727?v=4" alt="" id="avatar">
+            <h2>Username : <span id="username">NickPeerapas</span></h2>
+            <div class="data-group">
+                <h2>Follower : <span id="follower">5</span></h2>
+                <h2>Following : <span id="following">3</span></h2>
+            </div>
+            <h2>Public Repositories : <span id="repos">2</span></h2>
+            <button id="profile">Profile</button>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
